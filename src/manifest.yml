@@ -1,0 +1,8 @@
+﻿---
+applications:
+- name: Eureka_Register_Example
+  buildpacks:
+    - dotnet_core_buildpack
+  stack: cflinuxfs3
+  services:
+    - myEurekaService
